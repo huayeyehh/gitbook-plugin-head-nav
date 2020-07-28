@@ -24,8 +24,8 @@
             <!-- Nav -->
             <div class="body-inner">
                 <div class="header-nav">
-                    <img class="nav-icon" src="{{ book.themeFexa.icon.src }}" width="{{ book.themeFexa.icon.width }}" height="{{ book.themeFexa.icon.height }}">
-                    {% for nav in book.themeFexa.nav -%}
+                    <img class="nav-icon" src="{{ book.headNav.icon.src }}" width="{{ book.headNav.icon.width }}" height="{{ book.headNav.icon.height }}">
+                    {% for nav in book.headNav.nav -%}
                         <a class="nav-item" href="{{ nav.url }}" target="{{ nav.target }}">{{ nav.name }}</a>
                     {%- endfor %}
                 </div>
