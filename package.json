@@ -1,0 +1,29 @@
+{
+    "name": "gitbook-plugin-head-nav",
+    "author": {
+        "email": "nathanhua123@163.com",
+        "name": "Nathan Hua"
+    },
+    "version": "0.0.1",
+    "description": "This is my first GitBook plugin for helping generate a clean head nav bar",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/huayeyehh/gitbook-plugin-head-nav"
+    },
+    "bugs": {
+        "url": "https://github.com/huayeyehh/gitbook-plugin-head-nav/issues"
+    },
+    "engines": {
+        "gitbook": ">3.0.0"
+    },
+    "gitbook": {
+        "properties": {
+            "myConfigKey": {
+                "type": "string",
+                "default": "it's the default value",
+                "description": "It defines my awesome config!"
+            }
+        }
+    },
+    "license": "Apache-2.0"
+}
