@@ -4,7 +4,7 @@
         "email": "nathanhua123@163.com",
         "name": "Nathan Hua"
     },
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "This is my first GitBook plugin for helping generate a clean head nav bar",
     "repository": {
         "type": "git",
